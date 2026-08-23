@@ -1,0 +1,20 @@
+package com.tshirtstore.entity;
+
+public enum NotificationType {
+    ORDER_CREATED,
+    PAYMENT_SUCCESS,
+    PAYMENT_FAILED,
+    ORDER_CONFIRMED,
+    SHIPMENT_CREATED,
+    ORDER_SHIPPED,
+    OUT_FOR_DELIVERY,
+    ORDER_DELIVERED,
+    ORDER_CANCELLED,
+    REFUND_INITIATED,
+    REFUND_COMPLETED,
+    REVIEW_REMINDER,
+    NEW_ORDER,
+    LOW_STOCK,
+    OUT_OF_STOCK,
+    NEW_REVIEW
+}
